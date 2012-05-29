@@ -30,8 +30,10 @@ This delegate method will be called whenever a user switches to the next or prev
 With the way the calendar layouts work, the number of rows (and thus the height) can vary. You can react to this change by using the targetHeight parameter.
 
 Mark the dates of that month by sending an array with NSDate or NSNumber objects. Like so:
-	NSArray *dates = [NSArray arrayWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:5], nil];
-	[calendarView markDates:dates];
+<pre>
+NSArray *dates = [NSArray arrayWithObjects:[NSNumber numberWithInt:1],[NSNumber numberWithInt:5], nil];
+[calendarView markDates:dates];
+</pre>
 Or 
 <pre>
 NSArray *date = [NSArray arrayWithObjects:[NSDate date], nil];
