@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93597E58157523D0004AE766 /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 93597E57157523D0004AE766 /* NSDate+convenience.m */; };
+		93597E5C157523EF004AE766 /* NSMutableArray+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 93597E5B157523EF004AE766 /* NSMutableArray+convenience.m */; };
+		93597E5F15752414004AE766 /* UIView+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 93597E5E15752414004AE766 /* UIView+convenience.m */; };
+		93597E6015752447004AE766 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 93664B0915752385004EBE25 /* UIColor+expanded.m */; };
+		93664AE5157522C0004EBE25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93664AE4157522C0004EBE25 /* UIKit.framework */; };
+		93664AE7157522C0004EBE25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93664AE6157522C0004EBE25 /* Foundation.framework */; };
+		93664AE9157522C0004EBE25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93664AE8157522C0004EBE25 /* CoreGraphics.framework */; };
+		93664AEF157522C0004EBE25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93664AED157522C0004EBE25 /* InfoPlist.strings */; };
+		93664AF1157522C0004EBE25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93664AF0157522C0004EBE25 /* main.m */; };
+		93664AF5157522C0004EBE25 /* VRGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93664AF4157522C0004EBE25 /* VRGAppDelegate.m */; };
+		93664AF8157522C0004EBE25 /* VRGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93664AF7157522C0004EBE25 /* VRGViewController.m */; };
+		93664AFB157522C0004EBE25 /* VRGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93664AF9157522C0004EBE25 /* VRGViewController.xib */; };
+		93664B05157522F1004EBE25 /* VRGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93664B04157522F1004EBE25 /* VRGCalendarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93597E56157523D0004AE766 /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
+		93597E57157523D0004AE766 /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
+		93597E5A157523EF004AE766 /* NSMutableArray+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+convenience.h"; sourceTree = "<group>"; };
+		93597E5B157523EF004AE766 /* NSMutableArray+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+convenience.m"; sourceTree = "<group>"; };
+		93597E5D15752414004AE766 /* UIView+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+convenience.h"; sourceTree = "<group>"; };
+		93597E5E15752414004AE766 /* UIView+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+convenience.m"; sourceTree = "<group>"; };
+		93664AE0157522BF004EBE25 /* Vurig Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vurig Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93664AE4157522C0004EBE25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93664AE6157522C0004EBE25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93664AE8157522C0004EBE25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93664AEC157522C0004EBE25 /* Vurig Calendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vurig Calendar-Info.plist"; sourceTree = "<group>"; };
+		93664AEE157522C0004EBE25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93664AF0157522C0004EBE25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93664AF2157522C0004EBE25 /* Vurig Calendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vurig Calendar-Prefix.pch"; sourceTree = "<group>"; };
+		93664AF3157522C0004EBE25 /* VRGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRGAppDelegate.h; sourceTree = "<group>"; };
+		93664AF4157522C0004EBE25 /* VRGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRGAppDelegate.m; sourceTree = "<group>"; };
+		93664AF6157522C0004EBE25 /* VRGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRGViewController.h; sourceTree = "<group>"; };
+		93664AF7157522C0004EBE25 /* VRGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRGViewController.m; sourceTree = "<group>"; };
+		93664AFA157522C0004EBE25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VRGViewController.xib; sourceTree = "<group>"; };
+		93664B03157522F1004EBE25 /* VRGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRGCalendarView.h; sourceTree = "<group>"; };
+		93664B04157522F1004EBE25 /* VRGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRGCalendarView.m; sourceTree = "<group>"; };
+		93664B071575237F004EBE25 /* UIColor+expanded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		93664B0915752385004EBE25 /* UIColor+expanded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93664ADD157522BF004EBE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93664AE5157522C0004EBE25 /* UIKit.framework in Frameworks */,
+				93664AE7157522C0004EBE25 /* Foundation.framework in Frameworks */,
+				93664AE9157522C0004EBE25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93664AD5157522BF004EBE25 = {
+			isa = PBXGroup;
+			children = (
+				93664AEA157522C0004EBE25 /* Vurig Calendar */,
+				93664AE3157522BF004EBE25 /* Frameworks */,
+				93664AE1157522BF004EBE25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93664AE1157522BF004EBE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93664AE0157522BF004EBE25 /* Vurig Calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93664AE3157522BF004EBE25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93664AE4157522C0004EBE25 /* UIKit.framework */,
+				93664AE6157522C0004EBE25 /* Foundation.framework */,
+				93664AE8157522C0004EBE25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93664AEA157522C0004EBE25 /* Vurig Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				93664B06157522F2004EBE25 /* calendar */,
+				93664AF3157522C0004EBE25 /* VRGAppDelegate.h */,
+				93664AF4157522C0004EBE25 /* VRGAppDelegate.m */,
+				93664AF6157522C0004EBE25 /* VRGViewController.h */,
+				93664AF7157522C0004EBE25 /* VRGViewController.m */,
+				93664AF9157522C0004EBE25 /* VRGViewController.xib */,
+				93664AEB157522C0004EBE25 /* Supporting Files */,
+			);
+			path = "Vurig Calendar";
+			sourceTree = "<group>";
+		};
+		93664AEB157522C0004EBE25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93664AEC157522C0004EBE25 /* Vurig Calendar-Info.plist */,
+				93664AED157522C0004EBE25 /* InfoPlist.strings */,
+				93664AF0157522C0004EBE25 /* main.m */,
+				93664AF2157522C0004EBE25 /* Vurig Calendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93664B06157522F2004EBE25 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				93664B03157522F1004EBE25 /* VRGCalendarView.h */,
+				93664B04157522F1004EBE25 /* VRGCalendarView.m */,
+				93597E5D15752414004AE766 /* UIView+convenience.h */,
+				93597E5E15752414004AE766 /* UIView+convenience.m */,
+				93597E5A157523EF004AE766 /* NSMutableArray+convenience.h */,
+				93597E5B157523EF004AE766 /* NSMutableArray+convenience.m */,
+				93597E56157523D0004AE766 /* NSDate+convenience.h */,
+				93597E57157523D0004AE766 /* NSDate+convenience.m */,
+				93664B071575237F004EBE25 /* UIColor+expanded.h */,
+				93664B0915752385004EBE25 /* UIColor+expanded.m */,
+			);
+			name = calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93664ADF157522BF004EBE25 /* Vurig Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93664AFE157522C0004EBE25 /* Build configuration list for PBXNativeTarget "Vurig Calendar" */;
+			buildPhases = (
+				93664ADC157522BF004EBE25 /* Sources */,
+				93664ADD157522BF004EBE25 /* Frameworks */,
+				93664ADE157522BF004EBE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vurig Calendar";
+			productName = "Vurig Calendar";
+			productReference = 93664AE0157522BF004EBE25 /* Vurig Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93664AD7157522BF004EBE25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VRG;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Vurig;
+			};
+			buildConfigurationList = 93664ADA157522BF004EBE25 /* Build configuration list for PBXProject "Vurig Calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93664AD5157522BF004EBE25;
+			productRefGroup = 93664AE1157522BF004EBE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93664ADF157522BF004EBE25 /* Vurig Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93664ADE157522BF004EBE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93664AEF157522C0004EBE25 /* InfoPlist.strings in Resources */,
+				93664AFB157522C0004EBE25 /* VRGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93664ADC157522BF004EBE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93664AF1157522C0004EBE25 /* main.m in Sources */,
+				93664AF5157522C0004EBE25 /* VRGAppDelegate.m in Sources */,
+				93664AF8157522C0004EBE25 /* VRGViewController.m in Sources */,
+				93664B05157522F1004EBE25 /* VRGCalendarView.m in Sources */,
+				93597E58157523D0004AE766 /* NSDate+convenience.m in Sources */,
+				93597E5C157523EF004AE766 /* NSMutableArray+convenience.m in Sources */,
+				93597E5F15752414004AE766 /* UIView+convenience.m in Sources */,
+				93597E6015752447004AE766 /* UIColor+expanded.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93664AED157522C0004EBE25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93664AEE157522C0004EBE25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93664AF9157522C0004EBE25 /* VRGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93664AFA157522C0004EBE25 /* en */,
+			);
+			name = VRGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93664AFC157522C0004EBE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93664AFD157522C0004EBE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93664AFF157522C0004EBE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vurig Calendar/Vurig Calendar-Prefix.pch";
+				INFOPLIST_FILE = "Vurig Calendar/Vurig Calendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93664B00157522C0004EBE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vurig Calendar/Vurig Calendar-Prefix.pch";
+				INFOPLIST_FILE = "Vurig Calendar/Vurig Calendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93664ADA157522BF004EBE25 /* Build configuration list for PBXProject "Vurig Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93664AFC157522C0004EBE25 /* Debug */,
+				93664AFD157522C0004EBE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93664AFE157522C0004EBE25 /* Build configuration list for PBXNativeTarget "Vurig Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93664AFF157522C0004EBE25 /* Debug */,
+				93664B00157522C0004EBE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93664AD7157522BF004EBE25 /* Project object */;
+}
