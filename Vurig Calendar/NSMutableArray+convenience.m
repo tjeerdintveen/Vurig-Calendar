@@ -1,7 +1,6 @@
 
 //
 //  NSMutableArray+convenience.m
-//  AFAS Pocket
 //
 //  Created by in 't Veen Tjeerd on 5/10/12.
 //  Copyright (c) 2012 Vurig Media. All rights reserved.

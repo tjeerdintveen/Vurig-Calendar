@@ -1,6 +1,5 @@
 //
 //  NSDate+convenience.m
-//  AFAS Pocket
 //
 //  Created by in 't Veen Tjeerd on 4/23/12.
 //  Copyright (c) 2012 Vurig Media. All rights reserved.
