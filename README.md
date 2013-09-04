@@ -41,6 +41,10 @@ NSArray *color = [NSArray arrayWithObjects:[UIColor redColor],nil];
 [calendarView markDates:date withColors:color];
 </pre>
 
+##License
+Vurig Calendar is released under the MIT License  
+http://opensource.org/licenses/MIT
+
 
 
 
